@@ -1,0 +1,52 @@
+/* Reset de algumas propriedades e definição de fonte padrão para o projeto */
+*{
+	font-family: 'Open Sans', Arial, Helvetica;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+}
+/**********/
+
+/* Containers */
+.container-externo{
+	width: 100%;	
+	display: inline-block;
+	overflow: auto;
+}
+
+.container{
+	width: 940px;	
+	margin: auto;
+	overflow: auto;
+}
+
+nav{
+	overflow: auto;
+}
+/**********/
+
+
+/* Clearfix */
+.clearfix:after,.clearfix:before{
+	content: "";
+	display: table;
+}
+
+.clearfix{
+	overflow: auto;
+	zoom: 1;
+}
+/**********/
+
+
+/* Floats */
+.float-right{
+	float: right;
+}
+
+.float-left{
+	float: left;
+}
+/**********/

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Segundo Desafio | Teste Front-end - Amil</title>
+		<link rel="stylesheet" href="estilos.css">
+		<script src="jquery-3.1.1.min.js"></script>
+	</head>
+
+	<body>		
+		<form>
+		  <fieldset>
+		    <legend>Cadastro</legend>
+
+		    <label for="">
+		    	<span>Nome:</span>
+		    	<span class="erro" id="erro_nome"></span>
+		    	<input type="text" id="txt_nome" name="txt_nome">		    	
+		    </label>
+
+		    <br>
+
+		    <label for="">
+		    	<span>Telefone: <small>Siga o padrão (XX)XXXX-XXXX</small></span>
+		    	<span class="erro" id="erro_telefone"></span>
+		    	<input type="text" id="txt_telefone" name="txt_telefone">
+		    </label>
+
+		    <br>
+
+		    <label for="">
+		    	<span>E-mail:</span>
+		    	<span class="erro" id="erro_email"></span>
+		    	<input type="text" id="txt_email" name="txt_email">
+		    </label>
+
+		    <input id="btn_salvar" type="submit" value="Salvar">
+		    <input id="btn_cancelar" type="reset" value="Cancelar">
+		  </fieldset>			
+		</form>
+
+		<div id="cadastrados">
+			<h3>Usuários Cadastrados:</h3>
+
+			<div id="lista-cadastrados">				
+			</div>
+		</div>		  
+
+	</body>
+</html>
+
+<script src="validacao.js"></script>

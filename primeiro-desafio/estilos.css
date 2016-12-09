@@ -1,0 +1,463 @@
+/* Menu Header */
+header{
+	background: #EEE;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+header nav ul{
+	z-index: 0;
+	margin: 10px 0;
+	margin-left: 158px;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding: 0;	
+	margin: 0;
+}
+
+header nav ul li a{
+	font-weight: 600; /*semibold*/
+	font-size: 16px;
+	padding: 4px 18px;
+	color: #898989;
+	border-right: 1px solid #c9c9c9;
+	display: inline-block;
+}
+
+header nav ul li:first-child a{
+	padding-left: 0;
+}
+
+header nav ul li:last-child a{
+	border-right: none;
+}
+
+#botao{
+	margin: 10px 0;
+	padding: 4px 0;
+	background: #f7941e;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	width: 141px;
+	border-radius: 5px;
+	display: inline-block;
+}
+#botao .separador{
+	margin-left: 3px;
+}
+/**********/
+
+
+/* Menu Breadcrumbs */
+#breadcrumb{
+	background-color: #FFF;
+	margin-top: -5px;
+	margin-bottom: 40px;
+}
+#breadcrumb nav ul{
+	z-index: 0;
+	margin: 16px 0;
+	margin-left: 139px;
+}
+
+#breadcrumb nav ul li{
+	display: inline-block;
+	height: auto;
+}
+
+#breadcrumb nav ul li a{	
+	font-weight: normal;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	color: #898989;
+	display: inline-block;
+}
+#breadcrumb nav ul li a:hover{
+	text-decoration: underline;
+}
+#breadcrumb nav ul i.separador{
+	margin: 0 2px;
+	padding: 0;
+	font-size: 10px;
+	color: #898989;
+}
+/**********/
+
+
+/* Banner Cidade */
+#banner-cidade{
+	width: 698px;
+	height: 243px;
+	border: 1px solid #c9c9c9;
+	display: block;
+}
+
+#banner-natureza{
+	width: 214px;
+	height: 239px;
+	border: 3px solid #ec007a;
+	display: block;
+}
+
+#bullets-slider{
+	width: 50px;
+	height: 30px;
+	margin: auto;
+	margin-top: 5px;
+	display: block;
+}
+
+#bullets-slider li{	
+	float: left;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#bullets-slider li:last-child{
+	margin-right: 0px;
+}
+
+#bullets-slider li a{
+	width: 10px;
+	height: 10px;
+	background: #b7b7b7;
+	display: block;
+}
+
+#bullets-slider li a:hover{
+	background: #20b7ce;
+}
+/**********/
+
+
+/* Submenu */
+aside#submenu{
+	width: 188px;
+	border: 1px solid #c9c9c9;
+	padding: 16px 15px;
+}
+
+aside#submenu h1{
+	color: #f7941e;
+	border-bottom: 1px solid #c9c9c9;
+	font-weight: normal;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+aside#submenu ul li{
+	margin: 20px 0;
+}
+
+aside#submenu ul li:last-child{
+	margin-bottom: 0;
+}
+
+aside#submenu ul li a{
+	color: #20b7ce;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+}
+
+aside#submenu ul li a i{
+	color: #f7941e;
+}
+
+aside#submenu ul li ul li{
+	margin: 0;		
+	margin-top: 10px;
+}
+
+aside#submenu ul li ul li a{
+	color: #898989;
+	display: block;
+	font-weight: normal;
+}
+
+aside#submenu ul li ul li a:hover{
+	text-decoration: underline;
+}
+/**********/
+
+
+/* Conteúdo principal (article) */
+article{
+	margin-left: 18px;
+	margin-bottom: 80px;
+	width: 700px;
+}
+
+article h1{
+	font-weight: 300;
+	font-size: 20px;
+	color: #ec007a;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+article p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+	margin-bottom: 35px;
+}
+
+#miolo{
+	width: 460px;
+}
+
+#banner-gato{
+	width: 220px;
+	margin-left: 18px;
+}
+
+#banner-gato img{
+	border-radius: 10px;
+}
+
+#banner-paes{
+	width: 700px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+#banner-paes h2{
+	font-size: 16px;
+	font-weight: 600; /*semibold*/
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.75);
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+
+	padding: 17px 0;
+}
+
+.caixa{
+	width: 218px;
+	height: 153px;
+	border: 1px solid #f7941e;
+	text-align: center;
+	padding: 16px 0;
+}
+.caixa h2{
+	color: #898989;
+	font-size: 16px;
+	font-weight: 600; /*semibold*/
+}
+.caixa img{
+	width: 60px;
+	height: 60px;
+	margin-bottom: 16px;
+	fill: #C00;
+}
+
+.caixa:nth-child(2){
+	margin: 0 20px;
+}
+/**********/
+
+
+/* Rodapé */
+#rodape{
+	background: #eeeeee;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#rodape hr{
+	margin: 30px 0;				
+  border: 0;
+  border-top: 1px solid #c9c9c9;
+}
+
+.menu-institucional ul li{
+	display: inline-block;
+	padding: 0;	
+	margin: 0;
+}			
+
+.menu-institucional ul li a{
+	font-weight: 600; /*semibold*/
+	font-size: 13px;
+	padding: 4px 25px;
+	color: #898989;
+	border-right: 1px solid #c9c9c9;
+	display: inline-block;
+}
+
+.menu-institucional ul li a:hover{
+	text-decoration: underline;
+}
+
+.menu-institucional ul li:first-child a{
+	padding-left: 0;
+}
+
+.menu-institucional ul li:last-child a{
+	border-right: none;
+}
+
+#menu-rodape{
+	width: 620px;
+	margin-right: 20px;
+}
+
+#menu-rodape h2{
+	font-size: 20px;
+	color: #898989;
+}
+
+#menu-rodape h3{
+	margin: 20px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #898989;
+}
+
+#menu-rodape ul{
+	width: 140px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+#menu-rodape ul li{
+	display: block;
+	margin-bottom: 15px;
+}			
+
+#menu-rodape ul li:last-child{
+	margin-bottom: 0px;
+}
+
+#menu-rodape ul li a{				
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	color: #898989;
+}			
+
+#menu-rodape ul li a:hover{
+	text-decoration: underline;
+}
+
+#menu-all-things{
+	width: 100%;
+	margin-top: 40px;
+}
+
+#menu-all-things a{
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	margin-right: 16px;
+	display: inline-block;
+
+	font-size: 13px;
+	font-weight: bold;
+	color: #898989;
+	text-decoration: underline;
+}
+
+#menu-all-things a i{
+	margin-left: 10px;
+}
+
+#menu-all-things a:last-child{
+	width: 290px;
+	margin-right: 0;
+}
+
+#menu-logos{
+	width: 300px;
+}
+
+#menu-logos h2{
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #898989;
+}
+
+#menu-logos ul{
+	display: block;
+}
+
+#menu-logos ul li{
+	display: inline-block;
+	margin-top: 20px;				
+}			
+
+#menu-logos ul li a{				
+	display: inline-block;
+	width: 140px;
+	margin-right: 20px;
+}
+
+#menu-logos ul li a:nth-child(odd){
+	margin-right: 0px;
+}
+
+#menu-logos ul li a img{
+	display: block;
+	margin: auto;
+}
+/**********/
+
+
+/* Footer */
+footer{
+	background: #c9c9c9;	
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+
+footer p{
+	text-align: center;
+	font-weight: 600px;
+	font-size: 13px;
+	color: #898989;
+}
+/**********/
+
+
+/* Logotipo */
+#container_logotipo{
+	position: absolute;
+	left: 50%;
+	top: 0;
+}
+
+#logotipo{
+	width: 118px;
+	position: relative;	
+	left: -50%;
+	margin-left: -470px;
+	background: #FFF;
+	z-index: 1;
+
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+
+	padding: 10px 0;
+}
+
+#logotipo img{
+	width: 72px;
+	margin: 0px auto;
+
+	display: block;
+  max-width: 100%;
+  height: auto;
+}
+/**********/
